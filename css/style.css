@@ -1,0 +1,41 @@
+/* [class*="col-"] {
+    min-height: 50px;
+    background-color: aqua;
+    border: azure 1px solid;
+}
+
+[class*="col"] {
+    min-height: 50px;
+    background-color: aqua;
+    border: azure 1px solid;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header */
+
+.header_top {
+    background-color: black;
+    min-height: 30px ;
+}
+
+.header_top img {
+    width: 70px;
+}
+
+.header_bottom {
+    background-color: white;
+    min-height: 70px;
+}
+
+
+.jumbotron .col {
+    background-color: burlywood;
+    min-height: 500px;
+}
