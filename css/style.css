@@ -36,6 +36,7 @@ header nav {
 /* jumbotron */
 
 .jumbotron {
+    color: white;
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-repeat: no-repeat; 
@@ -45,15 +46,41 @@ header nav {
 }
 
 .jumbotron img {
-    width: 30%;
+    width: 50%;
+}
+
+.jumbotron h3 {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #cd3d0f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* fake carosel */
+
+.fake-carosel-giochi{
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .giochi {
-    width: 170px;
+    max-width: 100%;
+    padding: 5px;
+}
+
+#gioco-1 {
+    border: 1px solid blue;
+    border-radius: 10px;
 }
 
 .giochi img {
-    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 
