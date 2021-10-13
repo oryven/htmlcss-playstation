@@ -1,14 +1,12 @@
-/* [class*="col-"] {
+[class*="col-"] {
     min-height: 50px;
-    background-color: aqua;
     border: azure 1px solid;
 }
 
 [class*="col"] {
     min-height: 50px;
-    background-color: aqua;
     border: azure 1px solid;
-} */
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,8 +32,15 @@ header nav {
     min-height: 70px;
 }
 
+/* jumbotron */
 
-.jumbotron .col {
-    background-color: burlywood;
+.jumbotron {
+    background-image: url("img/jumbo-bg.png");
+    background-size: contain;
     min-height: 500px;
+    padding: 0;
 }
+
+/* .jumbotron img {
+    width: 100%;
+} */
