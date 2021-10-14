@@ -88,12 +88,16 @@ button {
 
 /* elenco dispositivi */
 
-.dispositivi img {
+.elenco-dispositivi img {
     max-width: 70%;
 }
 
 #elemento-selezionato {
     border-bottom: 1px solid cornflowerblue;
+}
+
+.opacity {
+    filter: opacity(0.5);
 }
 
 /* takes two */
@@ -175,5 +179,56 @@ button {
 /* sezione playstation now */
 
 .playstation-now {
+    color: white;
     background-color: #161c3b;
+    margin: 30px 0;
 }
+
+/* social */
+
+.logo-social {
+    max-width: 20%;
+}
+
+.social img {
+    max-width: 100%;
+}
+
+.logo-social {
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 50px;
+    font-size: 12px;
+    padding: 30px 0;
+    color: white;
+    background-color: #00439c;
+    min-height: 300px;
+}
+
+.logo-playstation-footer:first-child {
+    margin-bottom: 20px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.globo {
+    max-width: 20px;
+}
+
+.footer-bottom img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-bottom a {
+    color: white;
+}
+
+
+
