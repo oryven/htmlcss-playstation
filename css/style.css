@@ -6,6 +6,11 @@ header nav {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* header */
 
 .header_top {
@@ -218,12 +223,13 @@ footer li {
 }
 
 .globo {
+    margin-right: 20px;
     max-width: 20px;
 }
 
 .footer-bottom img {
     width: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-bottom a {
