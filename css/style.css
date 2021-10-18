@@ -234,7 +234,7 @@ footer {
     min-height: 300px;
 }
 
-.logo-playstation-footer:first-child {
+.logo-playstation-footer {
     margin-bottom: 20px;
 }
 
@@ -255,6 +255,43 @@ footer li {
 .footer-bottom a {
     color: white;
 }
+
+/* Media Queries */
+
+@media all and (max-width: 576px) {
+
+    .logo-social {
+        max-width: 100%;
+    }
+
+    /* .container-country {
+        margin: 0 0 20px 0;
+    } */
+   
+}
+
+@media all and (max-width: 768px) {
+
+    .giochi-plus {
+        display: none;
+    }
+
+    .giochi-now {
+        display:none;
+    }
+
+    .nuovi-sconti img {
+    
+        max-width: 70%;
+        margin: 10px auto;
+    }
+
+    .container-country {
+        margin: 0 0 20px 0;
+    }
+   
+}
+
 
 
 
